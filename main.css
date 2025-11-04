@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    gap: 1em;
+    grid-template-areas:
+    "box-1 box-2 box-2 box-3" 
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-5 box-6 box-3"
+    "box-4 box-5 box-6 box-3"
+    "box-4 box-5 box-7 box-7"
+    "box-4 box-5 box-7 box-7"
+    ;
+}
+
+.grid {
+    border-radius: 12px;
+}
+
+.grid-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.grid-1-text {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.grid-1-text span {
+    color: hsl(256, 67%, 59%);
+}
+
+.grid-1 .create {
+    width: 280px;
+    height: 180px;
+    padding: 30px 0 20px 0
+}
+
+.grid-2 {
+    padding: 30px 8px 20px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.grid-2-text {
+    font-size: 56px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.grid-2-text span {
+    color: hsl(39, 100%, 71%);
+}
+
+.grid-2 .star {
+    width: 220px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.grid-2 .text {
+    color: white;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.grid-3 {
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.grid-3-text {
+    padding: 80px 0 30px;
+    font-size: 40px;
+}
+
+.grid-3 .schedule {
+    width: 280px;
+    height: 400px;
+}
+
+.grid-3 .text {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.grid-4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 36px;
+    background-color: hsl(39, 100%, 71%);
+    margin: 0px 0px 0 -10px;
+}
+
+.grid-4-text {
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.grid-4 .ai {
+    width: 280px;
+    height: 340px;
+}
+
+.grid-5 {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color:white;
+}
+
+.grid-5 .platform {
+    width: 260px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+.grid-5-text {
+    font-size: 42px;
+    font-weight: 500;
+    padding-bottom: 140px;
+    padding-top: 20px;
+}
+
+.grid-5 .strong {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.grid-5 .text {
+    font-size: 24px;
+}
+
+.grid-5 .grow {
+    padding-top: 140px;
+}
+
+.grid-6 {
+    background-color: hsl(39, 100%, 71%);
+}
+
+.grid-6-text {
+    font-size: 42px;
+    font-weight: 500;
+    padding: 20px 0px 80px 20px;
+}
+
+.grid-6 .consist {
+    width: 280px;
+    height: 122px;
+    padding-left: 20px;
+}
+
+.grid-7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(256, 67%, 59%);
+}
+
+.grid-7 .follower {
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+}
+
+.grid-7-text {
+    font-size: 44px;
+    font-weight: 500;
+    color: white;
+    padding-right: 20px;
+}
